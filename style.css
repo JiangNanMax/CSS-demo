@@ -40,7 +40,7 @@ body{
     transition: all 0.2s;
 }
 .box-mission .icon:hover{
-    transform: scale(1.2) rotate(360deg);
+    transform: scale(1.1) rotate(360deg);
 }
 
 .box-play .icon{
@@ -52,7 +52,7 @@ body{
     transition: all 0.2s;
 }
 .box-play .icon:hover{
-    transform: scale(1.2) rotate(360deg);
+    transform: scale(1.1) rotate(360deg);
 }
 
 .box-touch .icon{
@@ -64,7 +64,7 @@ body{
     transition: all 0.2s;
 }
 .box-touch .icon:hover{
-    transform: scale(1.2) rotate(360deg);
+    transform: scale(1.1) rotate(360deg);
 }
 
 .box .button{
@@ -108,7 +108,7 @@ body{
 }
 
 .box .line-bottom{
-    width: 2px;
+    width: 0px;
     height: 2px;
     bottom: -2px;
     right: -300px;
@@ -126,7 +126,7 @@ body{
 }
 
 .box .button:hover .line-left{
-	height:49px;
+	height:48px;
 	bottom:-2px;
 }
 
@@ -138,6 +138,6 @@ body{
 }
 
 .box .button:hover .line-right{
-	height:49px;
+	height: 48px;
 	top:-2px;
 }
